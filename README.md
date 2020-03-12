@@ -12,7 +12,7 @@ This project was assigned as the final project for Module 2 (Statistics and Line
 
 Housing prices in King County, WA have been exploding over the past decade due to many factors including the availability of great jobs, a rich culture, and a plethora of outdoor recreation opportunities in the surrounding areas. It is now harder than ever for house hunters to find a bargain in what seems like is a perpetual sellers' market.
 
-My goal in this project to determine where and what types of house are still available at decent prices and develop a multiple linear regression model capable of giving the patient investor an indication whether or not he may be looking at a bargain. Meeting this goal will require careful data cleaning, exploratory data analysis capable of answering questions relating to our goal, thoughtful feature engineering, and finally an iterative approach to mutliple regression modelling.
+My goal in this project was to determine where, when, and what types of houses are still available at decent prices and develop a multiple linear regression model capable of giving the patient investor an indication whether or not they may be looking at a bargain. Meeting this goal required careful data cleaning, exploratory data analysis, thoughtful feature engineering, and finally an iterative approach to mutliple regression modelling.
 
 With a median home value of $472k (during the 2015-2016 time period, adjusted for inflation) prices are high but there are still deals to be found. 
 
@@ -33,17 +33,25 @@ This project was created using the following languages and libraries. An environ
 ## Insights and Investment Recommendations
 
 ### Buy During the Right Time of Year
-ZZ **xx** yy
+Perhaps the simplest way to find a good deal is to shop when the market get's cool in the winter months. In fact analysis showed that home buyers paid a median amount of $496k in April compared to $452k in January - that's nearly a 10% premium!  
 
 ![Month Sold vs. Sale Price](month_sold_vs_sale_price.png)
 
 ### Buy the Right Size Home
-xyz
+Home sizes up to 2000sf appeared to be the most expensive. Buying a house with at least 2,000sf of living space makes sense for multiple reasons. 
 
-![Top Prodcuers](top_producers.png)
+1. You'll get the best deal on a square foot basis. 
+2. If you wish to make a rental out of the unit having at least 2,000 sf will make your property ideal for young families - typical tenants.
+3. If you wish to remodel your cost on a sf basis will be less than it would be on a smaller home. Contractors typically charge a premium on smaller jobs to make them worth their time and you can save money buying material in bulk on a larger job. 
+
+![Home Size to Buy](home_size_vs_ppsf.png)
 
 ### Shop in the Right Neighborhoods
-xyz
+By doing some supplemental analysis using Tableau Public and using my intuition as a native Washtonian I was able to narrow down three particular zip codes of interest. Each of these areas are charming in their own way, a reasonable distance to business hubs, and have average to excellent public schools. I would highly recommend investigating these areas further. In no particular order, they are listed below. 
+
+1. Snoqualmie / North Bend area (98065) - this is a beautiful area which is growing rapidly as the Seattle metro area expands. Prices are currently reasonable with a median home value of 222 USD/sf. You are looking at a 30min commute to Redmond or Bellevue, and a 35min commute to downtown Seattle.
+2. Renton area (98056) - this is an area with reasonable commute times to multiple business hubs. You area 21min from Bellevue, 28min from Redmond, and 22min from Seattle. Median home prices are 222 USD/sf.
+3. Kenmore area (98028) - this is another beatiful area with great views and reasonable commute times. You are 27min from Redmond or Bellevue, and 35min from Seattle. Median home prices are 239 USD/sf.
 
 ![Median Home Value by Zip](median_home_value_by_zip.PNG)
 
