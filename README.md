@@ -50,14 +50,14 @@ Home sizes below 2,000 sf appeared to be the most expensive. Buying a house with
 ### Shop in the Right Neighborhoods
 By conducting geographical analysis with the assistance of Tableau Public and using my intuition as a native Washtonian I was able to narrow down three particular areas of interest. Each of these areas is charming in its own way, a reasonable distance to business hubs, and has average to excellent public schools. I would highly recommend investigating these areas further. In no particular order, they are listed below. 
 
-1. Snoqualmie / North Bend area (98065) - this is a beautiful area which is growing rapidly as the Seattle metro area expands. Prices are currently reasonable with a median home value of $222/sf. The area has a thirty minute commute to Redmond or Bellevue, and a thirty-five minute commute to downtown Seattle.
-2. Renton area (98056) - this is an area with reasonable commute times to multiple business hubs. The area has a twenty-one minute commute to Bellevue, a twenty-eight minute commute to Redmond, and a twenty-two minute commute to downtown Seattle. Median home prices are $222/sf.
+1. Snoqualmie / North Bend area (98065) - this is a beautiful area which is growing rapidly as the Seattle metro area expands. Prices are currently reasonable with a median home value of $223/sf. The area has a thirty minute commute to Redmond or Bellevue, and a thirty-five minute commute to downtown Seattle.
+2. Renton area (98056) - this is an area with reasonable commute times to multiple business hubs. The area has a twenty-one minute commute to Bellevue, a twenty-eight minute commute to Redmond, and a twenty-two minute commute to downtown Seattle. Median home prices are $221/sf.
 3. Kenmore area (98028) - this is another beatiful area with great views and reasonable commute times. The area is a twenty-seven minute commute to Redmond or Bellevue, and a thirty-five minute commute to Seattle. Median home prices are $239/sf.
 
 ![Median Home Value by Zip](median_home_value_by_zip.PNG)
 
 ## Final Regression Model
-In summary I am somewhat pleased with the final model though there are clearly unseen factors at play here which contribute to home valuation and have not been accounted for.
+In summary I am somewhat pleased with the final OLS simple linear regression model though there are clearly unseen factors at play here which contribute to home valuation and have not been accounted for.
 
 **The good**
 
